@@ -115,7 +115,7 @@ body{
 
 }
 
-@media(max-width:700px){
+@media(max-width:1200px){
     .aparelho{
        display: flex;
         flex-direction: column-reverse
@@ -136,11 +136,15 @@ body{
     .imagens{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        width: 40%;
     }
 
     .contato{
         flex-direction: column;
         gap: 5px;
     }
-}
 
+    .mapa{
+        width: 40$;
+    }
+}
