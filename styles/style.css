@@ -1,0 +1,145 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600&display=swap');
+
+  :root{
+    --fonte-primaria: 'Inter', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+    --tamanho-fonte: 25px;
+  }
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.cabecalho{
+    padding: 1% 1% 1% 1%;
+    display: flex;
+    background-color: #FAD511;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    font-family: var(--fonte-primaria);
+    font-weight:500;
+    font-size: 1.5rem;
+}
+
+body{
+    background-color: black;
+    font-family: var(--fonte-primaria);
+}
+
+.paragrafo{
+    padding: 2% 10%;
+    font-size: 1.25rem;
+    color: #EAE2B9;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: justify;
+    font-size: var(--tamanho-fonte);
+
+    
+}
+
+.titulo{
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.aparelho{
+    align-items: center;
+    display: flex;
+    gap: 45px;    
+    justify-content: center;
+}
+
+.aparelhos{
+    border-radius: 45px;
+    align-items: center;
+    
+}
+
+.treinadores{
+    display: flex;
+    margin: 0px 150px 0px 150px;
+    gap: 100px;
+    align-items: center;
+}
+
+.imagens{
+
+    align-items: center;
+    display: flex;
+    gap: 25px;    
+    justify-content: center;
+}
+
+.imagem{
+    border-radius: 45px;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.contato{
+    justify-content: center;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+
+}
+
+.contato_contato{
+    text-align: center;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo_contato{
+    padding-top: 2%;
+    display: flex;
+    gap: 60px;
+    
+}
+.rodape{
+    padding: 2%;
+    background-color: #FAD511;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-weight:500;
+    font-size: 1.5rem;
+
+}
+
+@media(max-width:1200px){
+    .aparelho{
+       display: flex;
+        flex-direction: column-reverse
+    }
+    .aparelhos{
+        width: 40%;
+    }
+
+    .conteudo{
+        width: auto;
+    }
+    .treinadores{
+        flex-direction: column-reverse;
+        margin: 0px 10px 0px 10px;
+        gap: 100px;
+    }
+
+    .imagens{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .contato{
+        flex-direction: column;
+        gap: 5px;
+    }
+}
