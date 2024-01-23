@@ -8,8 +8,8 @@
     --tamanho-fonte: 25px;
   }
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 .cabecalho{
@@ -58,7 +58,6 @@ body{
 
 .aparelhos{
     border-radius: 45px;
-    align-items: center;
     
 }
 
@@ -70,11 +69,11 @@ body{
 }
 
 .imagens{
-
-    align-items: center;
     display: flex;
     gap: 25px;    
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+
 }
 
 .imagem{
@@ -86,7 +85,7 @@ body{
 .contato{
     justify-content: center;
     display: flex;
-    gap: 200px;
+    gap: 150px;
     align-items: center;
 
 }
@@ -108,43 +107,73 @@ body{
 .rodape{
     padding: 2%;
     background-color: #FAD511;
+    color: black;
     text-align: center;
     font-family: var(--fonte-primaria);
     font-weight:500;
     font-size: 1.5rem;
-
 }
 
-@media(max-width:1200px){
-    .aparelho{
-       display: flex;
-        flex-direction: column-reverse
-    }
+@media (min-width:800px) and (max-width:1500px){
     .aparelhos{
-        width: 40%;
+        width: 25%;    
     }
-
-    .conteudo{
-        width: auto;
-    }
+    
     .treinadores{
         flex-direction: column-reverse;
-        margin: 0px 10px 0px 10px;
-        gap: 100px;
+    }
+
+    .treinador{
+        width: 45%;
+    }
+
+    .imagens{
+        display: flex;
+        
+    }
+    .imagem{
+        width: 20%;
+    }
+    .mapa{
+        width: 80%;
+    }
+
+    .contato{
+        gap:20px;
+    }
+}
+
+@media (max-width:799px){
+    .treinadores{
+        display: grid;
+        margin: auto;
+        gap: 10px;
+    }
+
+    .aparelho{
+        display: grid;
+        align-content: center;
+        justify-items: center;
+    }
+    .aparelhos{
+        width: 80%;
+        
     }
 
     .imagens{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        width: 40%;
-    }
+        justify-items: center;
 
+    }
+    .imagem{
+        width: 80%;
+
+    }
     .contato{
-        flex-direction: column;
-        gap: 5px;
+        display: grid;
+        gap: 15px;
     }
-
-    .mapa{
-        width: 40$;
+    .treinadore{
     }
 }
+ 
