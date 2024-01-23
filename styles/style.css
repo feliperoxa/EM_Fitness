@@ -149,6 +149,10 @@ body{
 }
 
 @media (max-width:799px){
+      .cabecalho{
+        gap: 30px;
+    }
+
     .treinadores{
         display: grid;
         margin: auto;
