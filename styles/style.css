@@ -104,6 +104,9 @@ body{
     gap: 60px;
     
 }
+.mapa{
+    margin: auto;
+}
 .rodape{
     padding: 2%;
     background-color: #FAD511;
@@ -121,6 +124,7 @@ body{
     
     .treinadores{
         flex-direction: column-reverse;
+        gap: 20px;
     }
 
     .treinador{
@@ -141,6 +145,7 @@ body{
     .contato{
         gap:20px;
     }
+    
 }
 
 @media (max-width:799px){
@@ -148,7 +153,12 @@ body{
         display: grid;
         margin: auto;
         gap: 10px;
+        justify-items: center;
     }
+    .treinador{
+        width: 80%;
+    }
+
 
     .aparelho{
         display: grid;
@@ -173,7 +183,10 @@ body{
         display: grid;
         gap: 15px;
     }
-    .treinadore{
+    .mapa{
+        width: 60%;
+        display: grid;
+        place-items: center;
     }
 }
  
