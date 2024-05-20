@@ -1,0 +1,7 @@
+document.getElementById("texto_paragrafo").innerHTML= "Bem-vindo à EM Fitness: O Seu Destino para um Estilo de Vida Saudável!";
+
+document.getElementById("texto_paragrafo01").innerHTML= "Se você está em busca de um ambiente energizante, equipamentos de última geração e uma equipe dedicada a ajudá-lo a atingir seus objetivos de fitness, você encontrou o lugar certo. Na EM Fitness estamos comprometidos em oferecer uma experiência única que vai além do simples exercício físico.";
+document.getElementById("texto_paragrafo02").innerHTML= "Em nossa academia, você terá acesso a uma ampla variedade de equipamentos modernos e espaços projetados para atender a todas as suas necessidades de treinamento. Desde cardiovasculares até áreas de musculação e estúdios para aulas de grupo, temos tudo o que você precisa para um treino completo.";
+document.getElementById("texto_treinadores").innerHTML= "Nossa equipe de treinadores certificados está aqui para guiá-lo em cada etapa do seu percurso fitness. Seja você um iniciante que está dando os primeiros passos ou um atleta experiente em busca de novos desafios, nossos profissionais estão prontos para criar programas personalizados que se alinhem aos seus objetivos.";
+document.getElementById("texto_treinadores01").innerHTML= "Estamos ansiosos para recebê-lo em nosso espaço vibrante e motivador. Agende uma visita para conhecer nossas instalações, conversar com nossos treinadores e descobrir como a EM Fitness pode ser o impulso que você precisa para atingir suas metas de fitness";
+document.getElementById().innerHTML= "";
